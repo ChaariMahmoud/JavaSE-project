@@ -1,0 +1,101 @@
+package gestionCompte;
+
+
+//4.3. Lien d’héritage
+/*public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+}*/
+
+//4.4. Héritage et polymorphisme
+/*public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+
+    // Redéfinition de la méthode getPlus pour les dépôts
+    @Override
+    public int getPlus() {
+        return getMontant();
+    }
+}*/
+
+//5.1. Mouvement
+/*public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+
+    // Redéfinition de la méthode getPlus pour les dépôts
+    @Override
+    public int getPlus() {
+        return getMontant();
+    }
+
+    // Redéfinition de la méthode getMoins pour les dépôts (retourne 0 car un dépôt ne peut pas être un retrait)
+    @Override
+    public int getMoins() {
+        return 0;
+    }
+}
+*/
+//5.2. Redéfinition de toString()
+public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+
+    // Redéfinition de la méthode getPlus pour les dépôts
+    @Override
+    public int getPlus() {
+        return getMontant();
+    }
+
+    // Redéfinition de la méthode getMoins pour les dépôts (retourne 0 car un dépôt ne peut pas être un retrait)
+    @Override
+    public int getMoins() {
+        return 0;
+    }
+
+    // Redéfinition de la méthode toString() pour afficher les informations du dépôt
+    @Override
+    public String toString() {
+        return "Dépôt - " + super.toString();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

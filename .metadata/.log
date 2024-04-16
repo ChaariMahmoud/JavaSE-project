@@ -1,0 +1,1230 @@
+!SESSION 2024-04-16 22:27:30.771 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:31.904
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/435/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2024-04-16 22:27:30.783 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:31.974
+!MESSAGE Error deleting bunlde info.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1015/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:545)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:411)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.052
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1049/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.066
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1050/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.173
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1104/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.174
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1106/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.230
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1131/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:370)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.248
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1133/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:370)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.382
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1163/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.495
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1257/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.496
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1260/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.498
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1267/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.501
+!MESSAGE Error deleting bunlde info.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1268/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:545)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:411)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.527
+!MESSAGE Error deleting bunlde info.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1271/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:545)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:411)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.528
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1272/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.543
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1276/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.668
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1400/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.682
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1410/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.696
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1460/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.715
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1477/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.722
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1484/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.821
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1588/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:32.855
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1598/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:33.167
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1664/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:370)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 2 0 2024-04-16 22:27:33.191
+!MESSAGE Error deleting generation.
+!STACK 0
+java.nio.file.NoSuchFileException: /home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.osgi/1687/0/.delete
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.osgi.storage.Storage.ensureDeleteFlagFileExists(Storage.java:2276)
+	at org.eclipse.osgi.storage.Storage.deleteFlaggedDirectory(Storage.java:1321)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1304)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:554)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:431)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:408)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:111)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:324)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:606)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:369)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:190)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:108)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:53)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:46)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:342)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:27:41.891
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:27:41.969
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.update.configurator 4 0 2024-04-16 22:27:42.492
+!MESSAGE Cannot backup current configuration
+
+!ENTRY org.eclipse.update.configurator 4 0 2024-04-16 22:27:42.567
+!MESSAGE Could not rename configuration temp file
+
+!ENTRY org.eclipse.update.configurator 4 0 2024-04-16 22:27:42.568
+!MESSAGE Unable to save configuration file "/home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.update/platform.xml.tmp"
+!STACK 0
+java.io.IOException: Unable to save configuration file "/home/hamoud/snap/eclipse/87/amd64/configuration/org.eclipse.update/platform.xml.tmp"
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:586)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:485)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.startup(PlatformConfiguration.java:610)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.getPlatformConfiguration(ConfigurationActivator.java:121)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:94)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:520)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:643)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.initDependencyManagers(AbstractComponentManager.java:1027)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1057)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.osgi.util.tracker.ServiceTracker.addingService(ServiceTracker.java:419)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:230)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:907)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:674)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:437)
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:671)
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:310)
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:613)
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:75)
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:480)
+	at org.apache.felix.scr.impl.AbstractExtender.createExtension(AbstractExtender.java:196)
+	at org.apache.felix.scr.impl.AbstractExtender.modifiedBundle(AbstractExtender.java:169)
+	at org.apache.felix.scr.impl.AbstractExtender.addingBundle(AbstractExtender.java:139)
+	at org.apache.felix.scr.impl.AbstractExtender.addingBundle(AbstractExtender.java:49)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:477)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:230)
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:452)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:972)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:235)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:134)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:126)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:229)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:531)
+	at org.eclipse.osgi.container.Module.start(Module.java:516)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2004)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2024-04-16 22:27:42.691
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start() of bundle org.eclipse.equinox.p2.reconciler.dropins.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:854)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2006)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+Caused by: java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1213)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.ignoreExistingProfile(SimpleProfileRegistry.java:327)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:266)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.oomph.p2.internal.core.LazyProfileRegistry.containsProfile(LazyProfileRegistry.java:224)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.containsProfile(ProfilePreferences.java:115)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:375)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:630)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:637)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:637)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.RootPreferences.getNode(RootPreferences.java:93)
+	at org.eclipse.core.internal.preferences.RootPreferences.node(RootPreferences.java:70)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:516)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.restoreRepositories(AbstractRepositoryManager.java:1039)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicGetRepository(AbstractRepositoryManager.java:182)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:670)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:1)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.initializeRepository(RepositoryListener.java:298)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.initializeMetadataRepository(RepositoryListener.java:93)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.<init>(RepositoryListener.java:65)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.<init>(DropinsRepositoryListener.java:85)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:505)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:165)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	... 14 more
+Root exception:
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1213)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.ignoreExistingProfile(SimpleProfileRegistry.java:327)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:266)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.oomph.p2.internal.core.LazyProfileRegistry.containsProfile(LazyProfileRegistry.java:224)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.containsProfile(ProfilePreferences.java:115)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:375)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:630)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:637)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:637)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.preferences.RootPreferences.getNode(RootPreferences.java:93)
+	at org.eclipse.core.internal.preferences.RootPreferences.node(RootPreferences.java:70)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:516)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.restoreRepositories(AbstractRepositoryManager.java:1039)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicGetRepository(AbstractRepositoryManager.java:182)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:670)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:1)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.initializeRepository(RepositoryListener.java:298)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.initializeMetadataRepository(RepositoryListener.java:93)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.RepositoryListener.<init>(RepositoryListener.java:65)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.<init>(DropinsRepositoryListener.java:85)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:505)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:165)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2006)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1883)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:28:04.067
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-16 22:38:56.316 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:38:59.910
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-16 22:39:04.073
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:39:04.375
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-16 22:53:15.727 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:53:17.681
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-16 22:53:20.504
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:53:20.749
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-16 22:54:50.812 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:54:52.324
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 22:54:56.744
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-04-16 22:57:09.678
+!MESSAGE Connection to https://testng.org/testng-p2-update-site/p2.index failed on testng.org: Temporary failure in name resolution. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: testng.org: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1009)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:997)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2024-04-16 22:57:09.882
+!MESSAGE Unknown Host: https://testng.org/testng-p2-update-site/content.xml
+!STACK 0
+java.net.UnknownHostException: testng.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:251)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-04-16 22:57:17.505
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-04-16 22:58:29.764
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+!SESSION 2024-04-16 23:42:31.692 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 23:42:34.162
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-16 23:42:37.488
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 23:42:37.728
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-04-16 23:44:13.532 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 23:44:15.628
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-16 23:44:18.687
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-16 23:44:18.990
+!MESSAGE Logback config file: /home/hamoud/Desktop/Stage java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml

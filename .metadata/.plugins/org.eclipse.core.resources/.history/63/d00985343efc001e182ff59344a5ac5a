@@ -1,0 +1,10 @@
+package gestionCompte;
+
+
+//4.3. Lien d’héritage
+/*public class Retrait extends Mouvement {
+    // Constructeur de la classe Retrait
+    public Retrait(int montant) {
+        super(montant);
+    }
+}*/

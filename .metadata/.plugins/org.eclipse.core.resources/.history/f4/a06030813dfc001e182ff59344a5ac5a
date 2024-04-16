@@ -1,0 +1,40 @@
+package gestionCompte;
+
+
+
+//4.1. Lien de composition
+/*import java.util.Date;
+
+public class Mouvement {
+    private int montant;
+    private Date date;
+    private TypeMouvement type;
+
+    // Enumération pour représenter le type de mouvement (dépôt ou retrait)
+    public enum TypeMouvement {
+        DEPOT, RETRAIT
+    }
+
+    // Constructeur de la classe Mouvement
+    public Mouvement(int montant, TypeMouvement type) {
+        this.montant = montant;
+        this.date = new Date(); // Utilisation de la date actuelle
+        this.type = type;
+    }
+
+    // Getter pour le montant
+    public int getMontant() {
+        return montant;
+    }
+
+    // Getter pour la date
+    public Date getDate() {
+        return date;
+    }
+
+    // Getter pour le type de mouvement
+    public TypeMouvement getType() {
+        return type;
+    }
+}
+*/

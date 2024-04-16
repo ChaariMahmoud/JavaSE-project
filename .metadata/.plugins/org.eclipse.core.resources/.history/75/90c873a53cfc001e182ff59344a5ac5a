@@ -1,0 +1,73 @@
+package gestionCompte;
+
+//1.1.3. Exécutable – pour les tests
+/*
+public class TestCompte {
+    public static void main(String[] args) {
+        // Instanciation de la classe Compte avec un solde initial de 100
+        Compte compte = new Compte(100);
+
+        // Utilisation des méthodes pour déposer, retirer et obtenir le solde
+        System.out.println("Solde initial: " + compte.getSolde());
+
+        compte.depotDe(50); // Déposer 50
+        System.out.println("Solde après dépôt de 50: " + compte.getSolde());
+
+        compte.retraitDe(20); // Retirer 20
+        System.out.println("Solde après retrait de 20: " + compte.getSolde());
+
+        compte.depotDe(30); // Déposer 30
+        System.out.println("Solde après dépôt de 30: " + compte.getSolde());
+    }
+}
+*/
+
+////1.2. Gestion du compte avec encapsulation
+/*package gestionCompte;
+
+public class TestCompte {
+    public static void main(String[] args) {
+        // Instanciation de la classe Compte avec un solde initial de 100
+        Compte compte = new Compte(100);
+
+        // Utilisation des méthodes pour déposer, retirer et obtenir le solde
+        System.out.println("Solde initial: " + compte.getSolde());
+
+        compte.depotDe(50); // Déposer 50
+        System.out.println("Solde après dépôt de 50: " + compte.getSolde());
+
+        compte.retraitDe(20); // Retirer 20
+        System.out.println("Solde après retrait de 20: " + compte.getSolde());
+
+        compte.depotDe(30); // Déposer 30
+        System.out.println("Solde après dépôt de 30: " + compte.getSolde());
+    }
+}
+*/
+
+//1.3. Suppression de la variable solde
+/*package gestionCompte;
+
+public class TestCompte {
+    public static void main(String[] args) {
+        // Instanciation de la classe Compte avec un solde initial de 100
+        Compte compte = new Compte(100);
+
+        // Utilisation des méthodes pour déposer, retirer et obtenir les sommes
+        System.out.println("Solde initial: " + compte.getSolde());
+
+        compte.depotDe(50); // Déposer 50
+        compte.retraitDe(20); // Retirer 20
+        compte.depotDe(30); // Déposer 30
+
+        // Affichage des sommes déposées et retirées
+        System.out.println("Somme des dépôts: " + compte.getSommeDepots());
+        System.out.println("Somme des retraits: " + compte.getSommeRetraits());
+
+        // Affichage du solde
+        System.out.println("Solde après dépôts et retraits: " + compte.getSolde());
+    }
+}
+*/
+
+

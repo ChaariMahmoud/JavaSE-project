@@ -1,0 +1,56 @@
+package gestionCompte;
+
+
+//1.1. Gestion des dépôts et retraits sur un compte en banque
+/*public class Compte {
+    private int solde;
+
+    // Constructeur
+    public Compte(int soldeInitial) {
+        this.solde = soldeInitial;
+    }
+
+    // Méthode pour déposer de l'argent
+    public void depotDe(int montant) {
+        this.solde += montant;
+    }
+
+    // Méthode pour retirer de l'argent
+    public void retraitDe(int montant) {
+        this.solde -= montant;
+    }
+
+    // Méthode pour obtenir le solde
+    public int getSolde() {
+        return this.solde;
+    }
+}*/
+//1.2. Gestion du compte avec encapsulation
+/*package gestionCompte;
+
+public class Compte {
+    private int solde;
+
+    // Constructeur
+    public Compte(int soldeInitial) {
+        this.solde = soldeInitial;
+    }
+
+    // Méthode pour déposer de l'argent
+    public void depotDe(int montant) {
+        this.solde += montant;
+    }
+
+    // Méthode pour retirer de l'argent
+    public void retraitDe(int montant) {
+        this.solde -= montant;
+    }
+
+    // Méthode pour obtenir le solde
+    public int getSolde() {
+        return this.solde;
+    }
+}
+*/
+
+

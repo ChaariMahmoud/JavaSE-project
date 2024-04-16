@@ -1,0 +1,10 @@
+package gestionCompte;
+
+public class Snippet {
+	Créez une classe Agio, héritant de Mouvement, qui implémente la méthode getMoins().
+	Enregistrez, dans votre vecteur des historiques un Agio, vous choisirez un montant fictif dans
+	une méthode de votre choix. Et bien sûr testez le tout. Vous verrez ainsi la puissance du
+	polymorphisme et des concepts objets : vous aurez fait évoluer votre modèle sans impact sur
+	les existants !!
+}
+

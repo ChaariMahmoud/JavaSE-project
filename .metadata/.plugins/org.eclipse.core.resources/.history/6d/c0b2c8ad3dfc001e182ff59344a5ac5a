@@ -1,0 +1,8 @@
+package gestionCompte;
+
+/*public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+}*/

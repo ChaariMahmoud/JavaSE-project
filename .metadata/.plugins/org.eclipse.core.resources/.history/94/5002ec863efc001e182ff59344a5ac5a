@@ -1,0 +1,118 @@
+package gestionCompte;
+
+
+
+//4.1. Lien de composition
+/*import java.util.Date;
+
+public class Mouvement {
+    private int montant;
+    private Date date;
+    private TypeMouvement type;
+
+    // Enumération pour représenter le type de mouvement (dépôt ou retrait)
+    public enum TypeMouvement {
+        DEPOT, RETRAIT
+    }
+
+    // Constructeur de la classe Mouvement
+    public Mouvement(int montant, TypeMouvement type) {
+        this.montant = montant;
+        this.date = new Date(); // Utilisation de la date actuelle
+        this.type = type;
+    }
+
+    // Getter pour le montant
+    public int getMontant() {
+        return montant;
+    }
+
+    // Getter pour la date
+    public Date getDate() {
+        return date;
+    }
+
+    // Getter pour le type de mouvement
+    public TypeMouvement getType() {
+        return type;
+    }
+}
+*/
+
+//4.3. Lien d’héritage
+/*import java.util.Date;
+
+// Classe de base Mouvement
+public class Mouvement {
+    private int montant;
+    private Date date;
+
+    // Constructeur de la classe Mouvement
+    public Mouvement(int montant) {
+        this.montant = montant;
+        this.date = new Date(); // Utilisation de la date actuelle
+    }
+
+    // Getter pour le montant
+    public int getMontant() {
+        return montant;
+    }
+
+    // Getter pour la date
+    public Date getDate() {
+        return date;
+    }
+}*/
+
+//4.4. Héritage et polymorphisme
+/*import java.util.Vector;
+
+// Classe de base Mouvement
+public class Mouvement {
+    private int montant;
+
+    // Constructeur de la classe Mouvement
+    public Mouvement(int montant) {
+        this.montant = montant;
+    }
+
+    // Getter pour le montant
+    public int getMontant() {
+        return montant;
+    }
+
+    // Méthode pour obtenir la somme des dépôts
+    public int getPlus() {
+        return 0; // Par défaut, retourne 0
+    }
+
+    // Méthode pour obtenir la somme des retraits
+    public int getMoins() {
+        return 0; // Par défaut, retourne 0
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

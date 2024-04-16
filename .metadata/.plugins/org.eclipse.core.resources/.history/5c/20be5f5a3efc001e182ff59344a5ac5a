@@ -1,0 +1,12 @@
+package gestionCompte;
+
+
+//4.3. Lien d’héritage
+/*public class Depot extends Mouvement {
+    // Constructeur de la classe Depot
+    public Depot(int montant) {
+        super(montant);
+    }
+}*/
+
+//4.4. Héritage et polymorphisme
